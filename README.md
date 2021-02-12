@@ -26,3 +26,9 @@ AWS Fargate Cluster
 aws cloudformation create-stack --stack-name sample-app --template-body file://fargate.yml --parameters file://parameters.json
 ```
 
+Update Fargate Cluster with New Docker Image URl,  parameters.json file provide new Docker Image URl update the stack for new version.
+
+ ```
+ aws cloudformation update-stack --stack-name sample-app --template-body file://fargate.yml --parameters file://parameters.json
+ ```
+ 
