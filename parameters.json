@@ -1,0 +1,38 @@
+[
+  {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "production"
+  },
+  {
+    "ParameterKey": "ServiceName",
+    "ParameterValue": "sample-app"
+  },
+  {
+    "ParameterKey": "ImageUrl",
+    "ParameterValue": "docker.io/bendalam/flaskapp:latest"
+  },
+  {
+    "ParameterKey": "ContainerPort",
+    "ParameterValue": "5000"
+  },
+  {
+    "ParameterKey": "ContainerCpu",
+    "ParameterValue": "256"
+  },
+  {
+    "ParameterKey": "ContainerMemory",
+    "ParameterValue": "512"
+  },
+  {
+    "ParameterKey": "Path",
+    "ParameterValue": "*"
+  },
+  {
+    "ParameterKey": "Priority",
+    "ParameterValue": "1"
+  },
+  {
+    "ParameterKey": "DesiredCount",
+    "ParameterValue": "2"
+  }
+]
