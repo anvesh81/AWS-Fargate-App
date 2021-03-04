@@ -6,7 +6,7 @@ AWS Cloud-Formation templetes will create aws vpc & application load balncer wit
 
 
 
-##Builiding 
+###Builiding 
 
  AWS base network with 2 private & 2 public subnets & ECS roles
 
